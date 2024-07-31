@@ -76,7 +76,7 @@ proxies:
     password: wifi-eg---
     udp: true
 
- - name: TR01
+  - name: TR01
     type: socks5
     server: 106.75.152.119
     port: "1000"
