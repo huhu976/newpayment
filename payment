@@ -1,0 +1,221 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - name: EG01
+    type: socks5
+    server: 106.75.152.119
+    port: "1000"
+    username: 0deb2de4-4e71edf4-006041
+    password: wifi-eg---
+    udp: true
+  - name: EG02
+    type: socks5
+    server: 106.75.152.119
+    port: "1001"
+    username: 0deb2de4-4e71edf4-08018d
+    password: wifi-eg---
+    udp: true
+  - name: EG03
+    type: socks5
+    server: 106.75.152.119
+    port: "1002"
+    username: 0deb2de4-4e71edf4-be262d
+    password: wifi-eg---
+    udp: true
+  - name: EG04
+    type: socks5
+    server: 106.75.152.119
+    port: "1003"
+    username: 0deb2de4-4e71edf4-9c5e3f
+    password: wifi-eg---
+    udp: true
+  - name: EG05
+    type: socks5
+    server: 106.75.152.119
+    port: "1004"
+    username: 0deb2de4-4e71edf4-fd2d6f
+    password: wifi-eg---
+    udp: true
+  - name: EG06
+    type: socks5
+    server: 106.75.152.119
+    port: "1005"
+    username: 0deb2de4-4e71edf4-fbe07b
+    password: wifi-eg---
+    udp: true
+  - name: EG07
+    type: socks5
+    server: 106.75.152.119
+    port: "1006"
+    username: 0deb2de4-4e71edf4-678737
+    password: wifi-eg---
+    udp: true
+  - name: EG08
+    type: socks5
+    server: 106.75.152.119
+    port: "1007"
+    username: 0deb2de4-4e71edf4-10a37a
+    password: wifi-eg---
+    udp: true
+  - name: EG09
+    type: socks5
+    server: 106.75.152.119
+    port: "1008"
+    username: 0deb2de4-4e71edf4-678737
+    password: wifi-eg---
+    udp: true
+  - name: EG10
+    type: socks5
+    server: 106.75.152.119
+    port: "1009"
+    username: 0deb2de4-4e71edf4-38ee89
+    password: wifi-eg---
+    udp: true
+
+ - name: TR01
+    type: socks5
+    server: 106.75.152.119
+    port: "1000"
+    username: 0deb2de4-4e71edf4-8039c9
+    password: wifi-tr---
+    udp: true
+  - name: TR02
+    type: socks5
+    server: 106.75.152.119
+    port: "1001"
+    username: 0deb2de4-4e71edf4-89129e
+    password: wifi-tr---
+    udp: true
+  - name: TR03
+    type: socks5
+    server: 106.75.152.119
+    port: "1002"
+    username: 0deb2de4-4e71edf4-bf9b4d
+    password: wifi-tr---
+    udp: true
+  - name: TR04
+    type: socks5
+    server: 106.75.152.119
+    port: "1003"
+    username: 0deb2de4-4e71edf4-ea9fd8
+    password: wifi-tr---
+    udp: true
+  - name: TR05
+    type: socks5
+    server: 106.75.152.119
+    port: "1004"
+    username: 0deb2de4-4e71edf4-c99a16
+    password: wifi-tr---
+    udp: true
+  - name: TR06
+    type: socks5
+    server: 106.75.152.119
+    port: "1005"
+    username: 0deb2de4-4e71edf4-a442ae
+    password: wifi-tr---
+    udp: true
+  - name: TR07
+    type: socks5
+    server: 106.75.152.119
+    port: "1006"
+    username: 0deb2de4-4e71edf4-e9e667
+    password: wifi-tr---
+    udp: true
+  - name: TR08
+    type: socks5
+    server: 106.75.152.119
+    port: "1007"
+    username: 0deb2de4-4e71edf4-41f32b
+    password: wifi-tr---
+    udp: true
+  - name: TR09
+    type: socks5
+    server: 106.75.152.119
+    port: "1008"
+    username: 0deb2de4-4e71edf4-2cc6c4
+    password: wifi-tr---
+    udp: true
+  - name: TR10
+    type: socks5
+    server: 106.75.152.119
+    port: "1009"
+    username: 0deb2de4-4e71edf4-8bf2a2
+    password: wifi-tr---
+    udp: true
+
+proxy-providers:
+          机场:
+            type: http
+            url: https://fly0001.buzz/gateway/feitu?token=590486ea91d8713fe610c4b430622ad1
+            interval: 86400
+            path: ./proxy_provider/jc.yaml
+            udp: false
+            health-check:
+              enable: true
+              interval: 600
+              url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: 主线路
+    proxies:
+      - DIRECT
+      - 谷歌分流
+    use:
+      - 机场
+    type: select
+    disable-udp: true
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  - name: 谷歌分流
+    proxies:
+      - Play
+      - REJECT 
+    type: select
+    disable-udp: false
+    health-check:
+      enable: false
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  - name: Play
+    proxies:
+      - EG01
+      - EG02
+      - EG03
+      - EG04
+      - EG05
+      - EG06
+      - EG07
+      - EG08
+      - EG09
+      - EG10
+
+      - TR01
+      - TR02
+      - TR03
+      - TR04
+      - TR05
+      - TR06
+      - TR07
+      - TR08
+      - TR09
+      - TR10
+      
+    type: select
+    disable-udp: false
+    health-check:
+      enable: false
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+rules:
+  - DOMAIN,play.googleapis.com,谷歌分流
+  - DOMAIN,myaccount.google.com,谷歌分流
+  - DOMAIN-KEYWORD,accounts.google.com,谷歌分流
+  - DOMAIN,play-fe.googleapis.com,谷歌分流
+  - DOMAIN,sspanel.net,谷歌分流
+  - DOMAIN,payments-pa.googleapis.com,谷歌分流
+  - MATCH,主线路
