@@ -147,6 +147,77 @@ proxies:
     password: wifi-tr---
     udp: true
 
+  - name: NG01
+    type: socks5
+    server: 106.75.152.119
+    port: "1000"
+    username: 0deb2de4-4e71edf4-6ce82a
+    password: wifi-eg---
+    udp: true
+  - name: NG02
+    type: socks5
+    server: 106.75.152.119
+    port: "1001"
+    username: 0deb2de4-4e71edf4-467363
+    password: wifi-eg---
+    udp: true
+  - name: NG03
+    type: socks5
+    server: 106.75.152.119
+    port: "1002"
+    username: 0deb2de4-4e71edf4-f077cd
+    password: wifi-eg---
+    udp: true
+  - name: NG04
+    type: socks5
+    server: 106.75.152.119
+    port: "1003"
+    username: 0deb2de4-4e71edf4-b8c8d9
+    password: wifi-eg---
+    udp: true
+  - name: NG05
+    type: socks5
+    server: 106.75.152.119
+    port: "1004"
+    username: 0deb2de4-4e71edf4-51cdbc
+    password: wifi-eg---
+    udp: true
+  - name: NG06
+    type: socks5
+    server: 106.75.152.119
+    port: "1005"
+    username: 0deb2de4-4e71edf4-53d597
+    password: wifi-eg---
+    udp: true
+  - name: NG07
+    type: socks5
+    server: 106.75.152.119
+    port: "1006"
+    username: 0deb2de4-4e71edf4-99acef
+    password: wifi-eg---
+    udp: true
+  - name: NG08
+    type: socks5
+    server: 106.75.152.119
+    port: "1007"
+    username: 0deb2de4-4e71edf4-18d2ae
+    password: wifi-eg---
+    udp: true
+  - name: NG09
+    type: socks5
+    server: 106.75.152.119
+    port: "1008"
+    username: 0deb2de4-4e71edf4-6c4457
+    password: wifi-eg---
+    udp: true
+  - name: NG10
+    type: socks5
+    server: 106.75.152.119
+    port: "1009"
+    username: 0deb2de4-4e71edf4-f690ea
+    password: wifi-eg---
+    udp: true
+
 proxy-providers:
           机场:
             type: http
@@ -183,6 +254,17 @@ proxy-groups:
       url: http://www.gstatic.com/generate_204
   - name: Play
     proxies:
+      - NG01
+      - NG02
+      - NG03
+      - NG04
+      - NG05
+      - NG06
+      - NG07
+      - NG08
+      - NG09
+      - NG10
+
       - EG01
       - EG02
       - EG03
@@ -204,7 +286,8 @@ proxy-groups:
       - TR08
       - TR09
       - TR10
-      
+
+
     type: select
     disable-udp: false
     health-check:
