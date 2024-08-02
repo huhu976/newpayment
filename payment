@@ -218,6 +218,17 @@ proxies:
     password: wifi-eg---
     udp: true
 
+  - {name: 缅甸1, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kmszjXc0-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸2, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-3uNCfzJE-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸3, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-lfMahCnS-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸4, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-cEGwQAjc-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸5, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-Wbh9u2rQ-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸6, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kkUmAw1U-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸7, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-61Eqwe1c-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸8, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-pldGAIdp-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸9, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-86N7SMnE-sessTime-15, password: dJIA8BM3}
+  - {name: 缅甸10, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-0cOzuZkG-sessTime-15, password: dJIA8BM3}
+
 proxy-providers:
           机场:
             type: http
@@ -287,6 +298,16 @@ proxy-groups:
       - TR09
       - TR10
 
+      - 缅甸1
+      - 缅甸2
+      - 缅甸3
+      - 缅甸4
+      - 缅甸5
+      - 缅甸6
+      - 缅甸7
+      - 缅甸8
+      - 缅甸9
+      - 缅甸10
 
     type: select
     disable-udp: false
