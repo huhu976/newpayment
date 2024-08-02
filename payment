@@ -232,7 +232,7 @@ proxies:
 proxy-providers:
           机场:
             type: http
-            url: https://fly0001.buzz/gateway/feitu?token=590486ea91d8713fe610c4b430622ad1
+            url: https://api.wd-gold.com/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WD_Trojan&url=https%3A%2F%2Fwd-gold.com%2Fsubscribe%2Fezvyzb-jp9uyojb
             interval: 86400
             path: ./proxy_provider/jc.yaml
             udp: false
