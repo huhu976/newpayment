@@ -151,71 +151,71 @@ proxies:
     type: socks5
     server: 106.75.152.119
     port: "1000"
-    username: 0deb2de4-4e71edf4-6ce82a
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-7e9b72
+    password: mobile-ng---
     udp: true
   - name: NG02
     type: socks5
     server: 106.75.152.119
     port: "1001"
-    username: 0deb2de4-4e71edf4-467363
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-f6257b
+    password: mobile-ng---
     udp: true
   - name: NG03
     type: socks5
     server: 106.75.152.119
     port: "1002"
-    username: 0deb2de4-4e71edf4-f077cd
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-4b7d7d
+    password: mobile-ng---
     udp: true
   - name: NG04
     type: socks5
     server: 106.75.152.119
     port: "1003"
-    username: 0deb2de4-4e71edf4-b8c8d9
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-a76da5
+    password: mobile-ng---
     udp: true
   - name: NG05
     type: socks5
     server: 106.75.152.119
     port: "1004"
-    username: 0deb2de4-4e71edf4-51cdbc
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-ebe3af
+    password: mobile-ng---
     udp: true
   - name: NG06
     type: socks5
     server: 106.75.152.119
     port: "1005"
-    username: 0deb2de4-4e71edf4-53d597
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-bdb119
+    password: mobile-ng---
     udp: true
   - name: NG07
     type: socks5
     server: 106.75.152.119
     port: "1006"
-    username: 0deb2de4-4e71edf4-99acef
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-869845
+    password: mobile-ng---
     udp: true
   - name: NG08
     type: socks5
     server: 106.75.152.119
     port: "1007"
-    username: 0deb2de4-4e71edf4-18d2ae
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-f7e971
+    password: mobile-ng---
     udp: true
   - name: NG09
     type: socks5
     server: 106.75.152.119
     port: "1008"
-    username: 0deb2de4-4e71edf4-6c4457
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-d5a326
+    password: mobile-ng---
     udp: true
   - name: NG10
     type: socks5
     server: 106.75.152.119
     port: "1009"
-    username: 0deb2de4-4e71edf4-f690ea
-    password: wifi-eg---
+    username: 0deb2de4-4e71edf4-5d9e8f
+    password: mobile-ng---
     udp: true
 
   - {name: 缅甸1, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kmszjXc0-sessTime-15, password: dJIA8BM3}
