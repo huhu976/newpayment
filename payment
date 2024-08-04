@@ -80,71 +80,71 @@ proxies:
     type: socks5
     server: 106.75.152.119
     port: "1000"
-    username: 0deb2de4-4e71edf4-8039c9
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-369ef8
+    password: mobile-tr---
     udp: true
   - name: TR02
     type: socks5
     server: 106.75.152.119
     port: "1001"
-    username: 0deb2de4-4e71edf4-89129e
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-899b04
+    password: mobile-tr---
     udp: true
   - name: TR03
     type: socks5
     server: 106.75.152.119
     port: "1002"
-    username: 0deb2de4-4e71edf4-bf9b4d
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-62bcb9
+    password: mobile-tr---
     udp: true
   - name: TR04
     type: socks5
     server: 106.75.152.119
     port: "1003"
-    username: 0deb2de4-4e71edf4-ea9fd8
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-bd8bdc
+    password: mobile-tr---
     udp: true
   - name: TR05
     type: socks5
     server: 106.75.152.119
     port: "1004"
-    username: 0deb2de4-4e71edf4-c99a16
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-6d599d
+    password: mobile-tr---
     udp: true
   - name: TR06
     type: socks5
     server: 106.75.152.119
     port: "1005"
-    username: 0deb2de4-4e71edf4-a442ae
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-c0d927
+    password: mobile-tr---
     udp: true
   - name: TR07
     type: socks5
     server: 106.75.152.119
     port: "1006"
-    username: 0deb2de4-4e71edf4-e9e667
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-eb2d6e
+    password: mobile-tr---
     udp: true
   - name: TR08
     type: socks5
     server: 106.75.152.119
     port: "1007"
-    username: 0deb2de4-4e71edf4-41f32b
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-9e1506
+    password: mobile-tr---
     udp: true
   - name: TR09
     type: socks5
     server: 106.75.152.119
     port: "1008"
-    username: 0deb2de4-4e71edf4-2cc6c4
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-6b7ae3
+    password: mobile-tr---
     udp: true
   - name: TR10
     type: socks5
     server: 106.75.152.119
     port: "1009"
-    username: 0deb2de4-4e71edf4-8bf2a2
-    password: wifi-tr---
+    username: 0deb2de4-4e71edf4-38434f
+    password: mobile-tr---
     udp: true
 
   - {name: 土耳其1, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-TR-sessid-iGZoZ2y7-sessTime-15, password: dJIA8BM3}
