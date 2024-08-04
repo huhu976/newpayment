@@ -146,6 +146,7 @@ proxies:
     username: 0deb2de4-4e71edf4-8bf2a2
     password: wifi-tr---
     udp: true
+
   - {name: 土耳其1, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-TR-sessid-iGZoZ2y7-sessTime-15, password: dJIA8BM3}
   - {name: 土耳其2, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-TR-sessid-BZ4gLZLU-sessTime-15, password: dJIA8BM3}
   - {name: 土耳其3, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-TR-sessid-ecz15ucd-sessTime-15, password: dJIA8BM3}
@@ -227,7 +228,6 @@ proxies:
     username: 0deb2de4-4e71edf4-5d9e8f
     password: mobile-ng---
     udp: true
-
   - {name: 缅甸1, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-kmszjXc0-sessTime-15, password: dJIA8BM3}
   - {name: 缅甸2, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-3uNCfzJE-sessTime-15, password: dJIA8BM3}
   - {name: 缅甸3, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-lfMahCnS-sessTime-15, password: dJIA8BM3}
