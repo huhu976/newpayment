@@ -156,7 +156,7 @@ proxies:
   - {name: 土耳其7, server: 103.255.209.124, port: 3002, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-hpvID9LA}
   - {name: 土耳其8, server: 103.255.209.124, port: 3002, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-EQq86W7A}
   - {name: 土耳其9, server: 103.255.209.124, port: 3002, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-BKhJacZV}
-  - {name: 土耳其10, server: 103.255.209.124, port: 3002, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-9WytzQkN
+  - {name: 土耳其10, server: 103.255.209.124, port: 3002, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-9WytzQkN}
 
   - name: NG01
     type: socks5
