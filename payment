@@ -238,6 +238,88 @@ proxies:
   - {name: 缅甸8, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-pldGAIdp-sessTime-15, password: dJIA8BM3}
   - {name: 缅甸9, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-86N7SMnE-sessTime-15, password: dJIA8BM3}
   - {name: 缅甸10, server: 103.255.209.124, port: 8102, type: socks5, username: 47353961-zone-custom-region-MM-sessid-0cOzuZkG-sessTime-15, password: dJIA8BM3}
+  - name: 缅甸11
+    type: socks5
+    server: 106.75.152.119
+    port: "1000"
+    username: 0deb2de4-4e71edf4-160792
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸12
+    type: socks5
+    server: 106.75.152.119
+    port: "1001"
+    username: 0deb2de4-4e71edf4-3054df
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸13
+    type: socks5
+    server: 106.75.152.119
+    port: "1002"
+    username: 0deb2de4-4e71edf4-3f9620
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸14
+    type: socks5
+    server: 106.75.152.119
+    port: "1003"
+    username: 0deb2de4-4e71edf4-6b3a0f
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸15
+    type: socks5
+    server: 106.75.152.119
+    port: "1004"
+    username: 0deb2de4-4e71edf4-122869
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸16
+    type: socks5
+    server: 106.75.152.119
+    port: "1005"
+    username: 0deb2de4-4e71edf4-b219cf
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸17
+    type: socks5
+    server: 106.75.152.119
+    port: "1006"
+    username: 0deb2de4-4e71edf4-924cef
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸18
+    type: socks5
+    server: 106.75.152.119
+    port: "1007"
+    username: 0deb2de4-4e71edf4-924cef
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸19
+    type: socks5
+    server: 106.75.152.119
+    port: "1008"
+    username: 0deb2de4-4e71edf4-783a43
+    password: mobile-mm---
+    udp: true
+  - name: 缅甸20
+    type: socks5
+    server: 106.75.152.119
+    port: "1009"
+    username: 0deb2de4-4e71edf4-4ae9d4
+    password: mobile-mm---
+    udp: true
+
+
+106.75.152.119:1000:0deb2de4-4e71edf4-160792:mobile-mm---
+106.75.152.119:1001:0deb2de4-4e71edf4-3054df:mobile-mm---
+106.75.152.119:1002:0deb2de4-4e71edf4-3f9620:mobile-mm---
+106.75.152.119:1003:0deb2de4-4e71edf4-6b3a0f:mobile-mm---
+106.75.152.119:1004:0deb2de4-4e71edf4-122869:mobile-mm---
+106.75.152.119:1005:0deb2de4-4e71edf4-b219cf:mobile-mm---
+106.75.152.119:1006:0deb2de4-4e71edf4-924cef:mobile-mm---
+106.75.152.119:1007:0deb2de4-4e71edf4-c3b2bf:mobile-mm---
+106.75.152.119:1008:0deb2de4-4e71edf4-783a43:mobile-mm---
+106.75.152.119:1009:0deb2de4-4e71edf4-4ae9d4:mobile-mm---
 
 proxy-providers:
           机场:
@@ -329,6 +411,16 @@ proxy-groups:
       - 缅甸8
       - 缅甸9
       - 缅甸10
+      - 缅甸11
+      - 缅甸12
+      - 缅甸13
+      - 缅甸14
+      - 缅甸15
+      - 缅甸16
+      - 缅甸17
+      - 缅甸18
+      - 缅甸19
+      - 缅甸20
 
     type: select
     disable-udp: false
