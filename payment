@@ -310,17 +310,6 @@ proxies:
     udp: true
 
 
-106.75.152.119:1000:0deb2de4-4e71edf4-160792:mobile-mm---
-106.75.152.119:1001:0deb2de4-4e71edf4-3054df:mobile-mm---
-106.75.152.119:1002:0deb2de4-4e71edf4-3f9620:mobile-mm---
-106.75.152.119:1003:0deb2de4-4e71edf4-6b3a0f:mobile-mm---
-106.75.152.119:1004:0deb2de4-4e71edf4-122869:mobile-mm---
-106.75.152.119:1005:0deb2de4-4e71edf4-b219cf:mobile-mm---
-106.75.152.119:1006:0deb2de4-4e71edf4-924cef:mobile-mm---
-106.75.152.119:1007:0deb2de4-4e71edf4-c3b2bf:mobile-mm---
-106.75.152.119:1008:0deb2de4-4e71edf4-783a43:mobile-mm---
-106.75.152.119:1009:0deb2de4-4e71edf4-4ae9d4:mobile-mm---
-
 proxy-providers:
           机场:
             type: http
