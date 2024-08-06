@@ -313,7 +313,7 @@ proxies:
 proxy-providers:
           机场:
             type: http
-            url: https://api.wd-gold.com/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WD_Trojan&url=https%3A%2F%2Fwd-gold.com%2Fsubscribe%2Fezvyzb-jp9uyojb
+            url: https://xyz.chatgpt123xxx456.xyz/api/v1/client/subscribe?token=63667054d6f0c752c8fb161e7ac1b0a0
             interval: 86400
             path: ./proxy_provider/jc.yaml
             udp: false
